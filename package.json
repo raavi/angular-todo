@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/raavi/angular-todo/issues"
   },
-  "homepage": "https://github.com/raavi/angular-todo#readme"
+  "homepage": "https://github.com/raavi/angular-todo#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
