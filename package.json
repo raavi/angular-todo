@@ -1,0 +1,22 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "Angular ToDo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raavi/angular-todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Razvan Mihalcea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raavi/angular-todo/issues"
+  },
+  "homepage": "https://github.com/raavi/angular-todo#readme"
+}
