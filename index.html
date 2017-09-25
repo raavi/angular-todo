@@ -2,7 +2,7 @@
 <html ng-app="TodoApp">
 <head>
     <title>Angular Todo</title>
-    <base href="/"> <!-- needed for Angular HTML 5 mode -->
+    <base href="/angular-todo/"> <!-- needed for Angular HTML 5 mode -->
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -20,16 +20,16 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">Angular Todo</a>
+                <a class="navbar-brand" href=".">Angular Todo</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <li><a href="/todo">Todo</a></li>
+                <li><a href=".">Home</a></li>
+                <li><a href="todo">Todo</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accounts <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/accounts/register">Register</a></li>
-                        <li><a href="/accounts/login">Login</a></li>
+                        <li><a href="accounts/register">Register</a></li>
+                        <li><a href="accounts/login">Login</a></li>
                     </ul>
                 </li>
             </ul>
